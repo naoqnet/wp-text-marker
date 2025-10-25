@@ -1,0 +1,57 @@
+/* エディタ内のマーカー表示 */
+mark.marker-yellow {
+    background: linear-gradient(transparent 60%, #ffff00 60%) !important;
+    padding: 0 2px;
+}
+
+mark.marker-pink {
+    background: linear-gradient(transparent 60%, #ffb3d9 60%) !important;
+    padding: 0 2px;
+}
+
+mark.marker-blue {
+    background: linear-gradient(transparent 60%, #b3e5fc 60%) !important;
+    padding: 0 2px;
+}
+
+mark.marker-green {
+    background: linear-gradient(transparent 60%, #c8e6c9 60%) !important;
+    padding: 0 2px;
+}
+
+mark.marker-orange {
+    background: linear-gradient(transparent 60%, #ffd699 60%) !important;
+    padding: 0 2px;
+}
+/* エディタのiframe内でも適用されるように */
+.editor-styles-wrapper mark.marker-yellow {
+    background: linear-gradient(transparent 60%, #ffff00 60%) !important;
+}
+
+.editor-styles-wrapper mark.marker-pink {
+    background: linear-gradient(transparent 60%, #ffb3d9 60%) !important;
+}
+
+.editor-styles-wrapper mark.marker-blue {
+    background: linear-gradient(transparent 60%, #b3e5fc 60%) !important;
+}
+
+.editor-styles-wrapper mark.marker-green {
+    background: linear-gradient(transparent 60%, #c8e6c9 60%) !important;
+}
+
+.editor-styles-wrapper mark.marker-orange {
+    background: linear-gradient(transparent 60%, #ffd699 60%) !important;
+}
+
+/* ドロップダウンメニューのスタイル */
+.text-marker-dropdown-content {
+    min-width: 150px;
+}
+
+.marker-preview {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-weight: 500;
+}

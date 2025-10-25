@@ -1,0 +1,25 @@
+/* フロントエンドでのマーカー表示 */
+mark.marker-yellow {
+    background: linear-gradient(transparent 60%, #ffff00 60%);
+    padding: 0 2px;
+}
+
+mark.marker-pink {
+    background: linear-gradient(transparent 60%, #ffb3d9 60%);
+    padding: 0 2px;
+}
+
+mark.marker-blue {
+    background: linear-gradient(transparent 60%, #b3e5fc 60%);
+    padding: 0 2px;
+}
+
+mark.marker-green {
+    background: linear-gradient(transparent 60%, #c8e6c9 60%);
+    padding: 0 2px;
+}
+
+mark.marker-orange {
+    background: linear-gradient(transparent 60%, #ffd699 60%);
+    padding: 0 2px;
+}
