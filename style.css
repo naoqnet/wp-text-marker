@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* フロントエンドでのマーカー表示 */
 mark.marker-yellow {
     background: linear-gradient(transparent 60%, #ffff00 60%);
