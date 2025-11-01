@@ -56,13 +56,6 @@ mark.marker-orange {
     border-radius: 2px;
     font-weight: 500;
 }
-/* リスト内でドロップダウンのラッパーが行高を押し下げないようにする */
 .text-marker-dropdown.components-dropdown{
-    display: contents!important;
+    display: inline;
 }
-
-/* .text-marker-dropdown.components-dropdown{
-    height: 0 !important;
-    line-height: 0 !important;
-    font-size: 0 !important;
-} */
